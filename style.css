@@ -1,20 +1,29 @@
-body{
-    background-image: url(backgroundimage.jpg);
-    background-size: cover;
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  border-bottom: 2px solid pink;
+  border-right: 2px solid pink;
+  width: 400px;
+  text-align: center;
+  box-shadow: 4px 4px 5px #888888;
+  margin-top: 10px;
 }
 
-h2{color:#AA4139;
-text-align: center;
-border: 5px solid rgba(255,176,170,0.5);
-cursor: pointer;}
-p{
-    color:rgb(4, 37, 23);
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+  cursor: pointer;
 }
-p
-{
-    color:white;
-}
-li{
-    list-style: none;
-    display: inline-block;
+img:hover {
+  transform: scale(1.1);
 }
